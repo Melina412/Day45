@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #000;
+  color: #fff;
+}
+
+/* * section & container style */
+
+section {
+  margin: 5rem auto;
+  width: 35rem;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  width: 33rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1rem #fff;
+}
+
+/* * elements style */
+
+p {
+  text-align: center;
+}
+
+.data {
+  font-size: 3rem;
+}
+
+.label {
+  font-size: 1rem;
+}
